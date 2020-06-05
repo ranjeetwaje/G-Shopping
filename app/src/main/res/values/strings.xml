@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">G-Shopping</string>
+    <string name="create_monthly_groccery_list">Create Monthly Groccery List</string>
+    <string name="create_daily_groccery_list">Create Daily Groccery List</string>
+    <string name="view_your_groccery_shopping_history">View Your Groccery Shopping History</string>
+    <string name="groccery_shopping_analysis">Groccery Shopping Analysis</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

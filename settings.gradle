@@ -1,0 +1,2 @@
+rootProject.name='G-Shopping'
+include ':app'

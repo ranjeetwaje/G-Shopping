@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="#050505"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGrocceryShoppingAnalysis" />
+
+        <Button
+            android:id="@+id/btnMonthlyGrocceryList"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:text="@string/create_monthly_groccery_list"
+            app:layout_constraintBottom_toTopOf="@+id/btnDailyGrocceryList"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnDailyGrocceryList"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/create_daily_groccery_list"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnMonthlyGrocceryList" />
+
+        <Button
+            android:id="@+id/btnViewHistory"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/view_your_groccery_shopping_history"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnDailyGrocceryList" />
+
+        <Button
+            android:id="@+id/btnGrocceryShoppingAnalysis"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/groccery_shopping_analysis"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnViewHistory" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
