@@ -23,8 +23,8 @@ private val retrofit = Retrofit.Builder()
 
 interface GroceryApiService {
     @GET("groceryItems1.json")
-    fun getGroceryItems():
-            Deferred<List<GroceryItem>>
+    fun getGroceryItemsAsync():
+            Deferred<List<GroceryData>>
 }
 
 object GroceryApi {
